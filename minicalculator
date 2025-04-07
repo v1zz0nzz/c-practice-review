@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+void MiniCalc(int x, int y);
+
+int main() {
+	int userInput;
+	int userInput2;
+	cout << "Enter a value" << endl;
+	cin >> userInput;
+	cout << "Enter another value" << endl;
+	cin >> userInput2;
+	MiniCalc(userInput, userInput2);
+
+
+
+}
+
+void MiniCalc(int x, int y) {
+	//int answer = 0;
+	cout << "Values Added:" << x + y << endl;
+	cout << "Values Subtracted:" << x - y << endl;
+	cout << "Values Multiplied:" << x * y << endl;
+	cout << "Values Divided:" << x / y << endl;
+}
