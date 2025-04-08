@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	int num;
+	cout << "What's your favorite number?" << endl;
+	cin >> num;
+	if (num < 10)
+		cout << "That's a very low number" << endl;
+	else if (num == 10)
+		cout << "That's my favorite number too" << endl;
+	else if (num > 10)
+		cout << "That's a very high number" << endl;
+
+}
