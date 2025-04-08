@@ -1,0 +1,25 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+void TooManyBeeps(int f, int d, int num);
+int main() {
+
+	int userInput1;
+	int userInput2;
+	int userInput3;
+	cout << "Pick a frequency" << endl;
+	cin >> userInput1;
+	cout << "Now pick a duration" << endl;
+	cin >> userInput2;
+	cout << "Now pick a number" << endl;
+	cin >> userInput3;
+	TooManyBeeps(userInput1, userInput2, userInput3);
+
+
+
+}
+void TooManyBeeps(int f, int d, int num) {
+
+	for (int i = num; i > 0; i+0)
+		Beep(f, d);
+}
